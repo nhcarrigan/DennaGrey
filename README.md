@@ -1,18 +1,16 @@
-# Project Name
+# Denna Grey
 
-Project Description
+A portfolio page I built for my sister. 💜
 
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/new-repo-template)
+![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/DennaGrey)
+![](https://img.shields.io/codeclimate/issues/nhcarrigan/DennaGrey)
+![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/DennaGrey)
+![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/DennaGrey)
+![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/DennaGrey)
 
 ## Live Version
 
-This page is not yet deployed.
-
-<!--This page is currently deployed. [View the live website.]()-->
+This page is currently deployed. [View the live website.](https://www.dennagrey.com)
 
 ## Feedback and Bugs
 

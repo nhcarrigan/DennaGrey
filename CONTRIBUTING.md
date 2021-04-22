@@ -6,6 +6,10 @@ Please ensure all pull requests and contributions comply with the [Developer Cer
 
 First, fork this repository to your own account. Then use `git clone <url>` to bring your forked repository down to your local machine (remember to get the URL for _your_ repository, not the original). Optionally, use `git remote add upstream <url>` to add the original repository as the upstream (this is helpful for keeping your fork up-to-date).
 
+Then `cd` into your new project directory and run `npm ci` to install the dependencies. You can run `npm start` to load a development instance of the application, located at `localhost:4200`. When you make changes and save them, the app will reload with your new code.
+
+Before submitting a PR, ensure that your changes meet our code standards by running `npm run lint` and that all tests pass with `npm run test` - you can update the tests as needed to reflect your changes.
+
 ## Claiming an Issue
 
 All of our issues are open to contributors! If you see an open issue you would like to work on, please comment on the issue so we may assign it to you.
