@@ -1,0 +1,24 @@
+<div>
+  <h1>Gallery</h1>
+  <p>These are my top five featured Sims creations.</p>
+  <div class="featured" *ngFor="let feat of featured">
+    <span class="title"
+      ><a href="{{ feat.url }}" target="_blank" rel="noopener noreferrer">{{
+        feat.name
+      }}</a></span
+    >
+    <div class="split">
+      <img class="feat-img" src="../../assets/img/{{ feat.image }}" />
+      <span class="description">{{ feat.description }}</span>
+    </div>
+  </div>
+  <p>
+    View my full collection in
+    <a
+      href="https://www.ea.com/en-gb/games/the-sims/the-sims-4/pc/gallery/browse?category=all&searchtype=ea_origin_id&sortby=downloads&time=all&searchquery=dennagrey&max=50&maxis=false"
+      target="_blank"
+      rel="noopener noreferrer"
+      >the Sims 4 Gallery</a
+    >.
+  </p>
+</div>

@@ -1,0 +1,18 @@
+div {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid var(--primary-text);
+  margin-top: 25px;
+}
+
+p {
+  margin: 1px;
+}
+
+a {
+  color: var(--primary-text);
+}

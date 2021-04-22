@@ -1,0 +1,46 @@
+div {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  width: 80vw;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  color: var(--primary-text);
+}
+
+.featured {
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid var(--primary-text);
+  border-radius: 0;
+}
+
+.title {
+  font-size: 16pt;
+  margin-bottom: 0;
+}
+
+.split {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  padding-top: 0;
+}
+
+.split > * {
+  border: 1px solid var(--primary-text);
+}
+
+.feat-img {
+  width: 100%;
+}
