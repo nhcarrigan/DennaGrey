@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 
 import * as Sentry from '@sentry/angular';
 import { Router } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {

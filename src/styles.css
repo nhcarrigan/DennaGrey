@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-text: #1a301e;
+  --primary-bg: rgba(186, 219, 192, 0.9);
+}
+
+html {
+  background: url('./assets/img/forest.jpg');
+}
