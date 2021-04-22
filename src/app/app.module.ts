@@ -9,9 +9,10 @@ import { Router } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent, FooterComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, FooterComponent, GalleryComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {
