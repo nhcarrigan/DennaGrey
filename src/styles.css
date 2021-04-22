@@ -6,3 +6,8 @@
 html {
   background: url('./assets/img/forest.jpg');
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,27 @@
+div {
+  width: 100vw;
+  min-height: 25px;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+a {
+  color: var(--primary-text);
+}
+
+span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
