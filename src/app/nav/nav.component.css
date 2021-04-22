@@ -1,5 +1,5 @@
 div {
-  width: 100vw;
+  width: 100%;
   min-height: 25px;
   background-color: var(--primary-bg);
   color: var(--primary-text);
