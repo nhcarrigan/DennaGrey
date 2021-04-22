@@ -8,9 +8,10 @@ import * as Sentry from '@sentry/angular';
 import { Router } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavComponent],
+  declarations: [AppComponent, HomeComponent, NavComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     {
