@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { featuredSims } from 'src/assets/data/featured';
+import { featuredHouses, featuredRooms } from 'src/assets/data/featured';
 
 import { GalleryComponent } from './gallery.component';
 
@@ -25,8 +25,10 @@ describe('GalleryComponent', () => {
   });
 
   it('should load the gallery data', () => {
-    expect(component.featured).toBeDefined();
-    expect(component.featured).toEqual(featuredSims);
+    expect(component.houses).toBeDefined();
+    expect(component.houses).toEqual(featuredHouses);
+    expect(component.rooms).toBeDefined();
+    expect(component.rooms).toEqual(featuredRooms);
   });
 
   it('should render the title', () => {
@@ -37,12 +39,12 @@ describe('GalleryComponent', () => {
   it('should render the intro text', () => {
     const intro = compiled.querySelector('p');
     expect(intro.innerText.trim()).toBe(
-      'These are my top five featured Sims creations.'
+      'These are my featured Sims creations, both houses and rooms.'
     );
   });
 
   it('should render a featured creation correctly', () => {
-    const expectedData = featuredSims[0];
+    const expectedData = featuredHouses[0];
     const firstCreation = compiled.querySelector('.featured');
     const image = firstCreation.querySelector('img');
     const title = firstCreation.querySelector('.title > a');
@@ -55,7 +57,7 @@ describe('GalleryComponent', () => {
 
   it('should render all of the featured creations', () => {
     const creations = compiled.querySelectorAll('.featured');
-    expect(creations.length).toBe(featuredSims.length);
+    expect(creations.length).toBe(featuredHouses.length + featuredRooms.length);
   });
 
   it('should render the link to the gallery', () => {
