@@ -1,6 +1,6 @@
 import { FeaturedSimsInt } from '../interfaces/FeaturedSimsInt';
 
-export const featuredSims: FeaturedSimsInt[] = [
+export const featuredHouses: FeaturedSimsInt[] = [
   {
     name: 'End of the Lane',
     image: 'feat-1.jpg',
@@ -40,5 +40,43 @@ export const featuredSims: FeaturedSimsInt[] = [
       'https://www.ea.com/en-gb/games/the-sims/the-sims-4/pc/gallery/B2675643934811EB8973C80C31D3D2E6',
     description:
       'Beautiful house made for one, or perhaps a couple. Includes, laundry room and lovely outdoor seating and pool area made for enjoying ever sunny day to the fullest!',
+  },
+];
+
+export const featuredRooms: FeaturedSimsInt[] = [
+  {
+    name: 'Neutral Blue Toddler',
+    image: 'room-1.jpg',
+    url:
+      'https://www.ea.com/en-gb/games/the-sims/the-sims-4/pc/gallery/2DCBD62F9D4411EB8635FC20F490ED8C',
+    description: `Do you have two little munchkins and need a cute room for them? This room has space enough for two! In neutral tones for the expecting family! With two high chairs so there's no tears at lunch time, and plenty of books, toys and stuffies that any child could hope for! From my "End of the Lane' House available via my catalog!`,
+  },
+  {
+    name: 'Laundry Room',
+    image: 'room-2.jpg',
+    url:
+      'https://www.ea.com/en-gb/games/the-sims/the-sims-4/pc/gallery/632B88277A1311EA87728DBC48AB3951',
+    description: `Modern Laundry room with sink! From my "Zen Retreat" house in my catalog.`,
+  },
+  {
+    name: 'Neutral Green Kids',
+    image: 'room-3.jpg',
+    url:
+      'https://www.ea.com/en-gb/games/the-sims/the-sims-4/pc/gallery/CCB86E809BB711EB82AE16881702A645',
+    description: `Lovely room for two children, decorated in a neutral green for the expecting family! Plenty of room for studying, reading together with a parent and even relaxing and watching tv. Dont forget to hug bun-bun before heading to bed! From my "End of the Lane" House available via my catalog!`,
+  },
+  {
+    name: 'Yoga Room',
+    image: 'room-4.jpg',
+    url:
+      'https://www.ea.com/en-gb/games/the-sims/the-sims-4/pc/gallery/1DF1B88C7A1511EA8A0A3A0A7F8BC425',
+    description: `Cute personal yoga studio, made to go in your house. From my "Zen Retreat" house Available through my catalog.`,
+  },
+  {
+    name: 'Beach Kitchen',
+    image: 'room-5.jpg',
+    url:
+      'https://www.ea.com/en-gb/games/the-sims/the-sims-4/pc/gallery/C65793A57DA911EA8F69F2ED66B80B86',
+    description: `Beautiful beach themed kitchen, in light colors to brighten each morning! From my "Beach Retreat" House also available through my catalog.`,
   },
 ];

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { featuredSims } from 'src/assets/data/featured';
+import { featuredHouses, featuredRooms } from 'src/assets/data/featured';
 import { FeaturedSimsInt } from 'src/assets/interfaces/FeaturedSimsInt';
 
 @Component({
@@ -8,11 +8,13 @@ import { FeaturedSimsInt } from 'src/assets/interfaces/FeaturedSimsInt';
   styleUrls: ['./gallery.component.css'],
 })
 export class GalleryComponent implements OnInit {
-  public featured: FeaturedSimsInt[] = [];
+  public houses: FeaturedSimsInt[] = [];
+  public rooms: FeaturedSimsInt[] = [];
 
   constructor() {}
 
   ngOnInit(): void {
-    this.featured = featuredSims;
+    this.houses = featuredHouses;
+    this.rooms = featuredRooms;
   }
 }
