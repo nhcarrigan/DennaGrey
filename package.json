@@ -10,6 +10,10 @@
     "e2e": "ng e2e",
     "deploy": "ng deploy"
   },
+  "engines": {
+    "node": "^16.2.0",
+    "npm": "^7.13.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "11.2.13",
