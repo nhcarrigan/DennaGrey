@@ -2,12 +2,6 @@
 
 A portfolio page I built for my sister. 💜
 
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/DennaGrey)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/DennaGrey)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/DennaGrey)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/DennaGrey)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/DennaGrey)
-
 ## Live Version
 
 This page is currently deployed. [View the live website.](https://www.dennagrey.com)
