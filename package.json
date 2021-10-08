@@ -11,7 +11,7 @@
     "deploy": "ng deploy"
   },
   "engines": {
-    "node": "^16.9.1",
+    "node": "^16.10.0",
     "npm": "^8.0.0"
   },
   "private": true,
