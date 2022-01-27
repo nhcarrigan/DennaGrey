@@ -27,7 +27,7 @@ describe('FooterComponent', () => {
     const texts = compiled.querySelectorAll('p');
     expect(texts[0].innerText.trim()).toBe('© 2021 Denna Grey');
     expect(texts[1].innerText.trim()).toBe(
-      'Made with love by Nicholas Carrigan'
+      'Made with love by Naomi Carrigan'
     );
     expect(texts[2].innerText.trim()).toBe('View Source Code');
   });
