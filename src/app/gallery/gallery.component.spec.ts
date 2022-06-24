@@ -44,18 +44,15 @@ describe('GalleryComponent', () => {
   });
 
   it('should render a featured creation correctly', () => {
-    const details = compiled.querySelector('details');
-    details.setAttribute('open', 'true');
-    fixture.detectChanges();
     const expectedData = featuredHouses[0];
     const firstCreation = compiled.querySelector('.featured');
     const image = firstCreation.querySelector('img');
     const title = firstCreation.querySelector('.title > a');
     const description = firstCreation.querySelector('.description');
-    expect(title.innerText.trim()).toBe(expectedData.name);
+    expect(title.textContent.trim()).toBe(expectedData.name);
     expect(title.getAttribute('href')).toBe(expectedData.url);
     expect(image.getAttribute('src').includes(expectedData.image)).toBeTrue();
-    expect(description.innerText.trim()).toBe(expectedData.description);
+    expect(description.textContent.trim()).toBe(expectedData.description);
   });
 
   it('should render all of the featured creations', () => {
@@ -65,7 +62,7 @@ describe('GalleryComponent', () => {
 
   it('should render the link to the gallery', () => {
     const bottomText = compiled.querySelectorAll('p')[1];
-    expect(bottomText.innerText.trim()).toBe(
+    expect(bottomText.textContent.trim()).toBe(
       'View my full collection in the Sims 4 Gallery.'
     );
     expect(bottomText.querySelector('a').getAttribute('href')).toBe(
