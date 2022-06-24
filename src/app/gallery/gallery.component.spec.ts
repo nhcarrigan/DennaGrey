@@ -44,6 +44,9 @@ describe('GalleryComponent', () => {
   });
 
   it('should render a featured creation correctly', () => {
+    const details = compiled.querySelector('details');
+    details.setAttribute('open', 'true');
+    fixture.detectChanges();
     const expectedData = featuredHouses[0];
     const firstCreation = compiled.querySelector('.featured');
     const image = firstCreation.querySelector('img');
